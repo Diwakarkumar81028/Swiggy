@@ -3,6 +3,7 @@ import ReactDom from "react-dom/client";
 import Header from "./componenets/Header";
 import Fooditems from "./componenets/Fooditems";
 import Shopitems from "./componenets/Shopitems";
+import Restaurantitems from "./componenets/Restaurantitems";
 function App(){
 
     return(
@@ -11,6 +12,7 @@ function App(){
         <Header></Header>
         <Fooditems></Fooditems>
         <Shopitems></Shopitems>
+        <Restaurantitems></Restaurantitems>
         </>
     )
 }
